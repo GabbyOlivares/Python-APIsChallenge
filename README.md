@@ -48,6 +48,8 @@ Your second requirement is to run linear regression on each relationship, only t
 
 After each pair of plots explain what the linear regression is modeling such as any relationships you notice and any other analysis you may have.
 
+**Optional** You will be creating multiple linear regression plots. To optimize your code, write a function that creates the linear regression plots.
+
 Your final notebook must:
 
 * Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
@@ -58,8 +60,6 @@ Your final notebook must:
 ### Part II - VacationPy
 
 Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
-
-* **Note:** Remember that any API usage beyond the $200 credit will be charged to your personal account. You can set quotas and limits to your daily requests to be sure you can't be charged. Check out [Google Maps Platform Billing](https://developers.google.com/maps/billing/gmp-billing#monitor-and-restrict-consumption) and [Manage your cost of use](https://developers.google.com/maps/documentation/javascript/usage-and-billing#set-caps) for more information.
 
 * **Note:** if you having trouble displaying the maps try running `jupyter nbextension enable --py gmaps` in your environment and retry.
 
@@ -91,7 +91,6 @@ As final considerations:
 * You must complete your analysis using a Jupyter notebook.
 * You must use the Matplotlib or Pandas plotting libraries.
 * For Part I, you must include a written description of three observable trends based on the data.
-* For Part II, you must include a screenshot of the heatmap you create and include it in your submission.
 * You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
 * For max intensity in the heat map, try setting it to the highest humidity found in the data set.
 
@@ -114,8 +113,6 @@ As final considerations:
 * Remember that each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.
 
 * Lastly, remember -- this is a challenging activity. Push yourself! If you complete this task, then you can safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. Good luck!
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
 ### Copyright
 
