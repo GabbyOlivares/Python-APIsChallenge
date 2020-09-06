@@ -1,3 +1,7 @@
+NOTES>
+Final codes are found in final version files. Output_data2 keeps all the png images containing graphs and maps figures outcomes. New csv data created for VacationPy is called clean_cities_data.csv
+
+
 # Python API Homework - What's the Weather Like?
 
 ## Background
